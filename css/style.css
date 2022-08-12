@@ -68,6 +68,7 @@ nav {
   cursor: pointer;
   width: 15rem;
   padding: 0 2rem;
+  
 }
 
 nav ul {
@@ -166,12 +167,14 @@ button:hover {
   text-align: center;
   padding-top: 22.5rem;
   margin: 2rem;
+  
 }
 .banner button {
   margin: 2rem 8rem;
 }
 .banner img {
   display: none;
+  border-radius: 50%;
 }
 
 .cartel {
@@ -231,6 +234,7 @@ button:hover {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 0rem;
   }
+
 }
 /**Recomendaciones**/
 .recomendacion {
@@ -307,10 +311,10 @@ textarea {
 }
 
 /** Main **/
-main {
+/* main {
   width: 100%;
   padding: 20px;
-}
+} */
 /**Navegacion Productos **/
 
 .active__link {
@@ -328,9 +332,9 @@ main {
 }
 
 @media (max-width: 768px) {
-  main {
+/*   main {
     width: 90vw;
-  }
+  } */
   .container__productos {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -342,13 +346,9 @@ main {
   }
   h2{
     text-align: center;
+    padding-bottom: 10px;
   }
-  .nav__links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
+
   .productos {
     width: 20rem !important;
     height: 20rem !important;
@@ -370,8 +370,23 @@ main {
     font-size: 1rem !important;
     margin-bottom: -9rem;
   }
-  h2 {
-    padding-bottom: 10px;
+ 
+  .cartel{
+
+    line-height: normal;
+  }
+  button {
+    padding: 2rem 3rem;
+    background-color: var(--gris);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 2rem, 3rem;
+  }
+  .categorias {
+    display: grid;
+    gird-template-columns: repeate (2, 1fr);
+    column-gap: 2rem;
   }
 }
 
