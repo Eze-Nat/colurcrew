@@ -62,6 +62,8 @@ nav {
   height: 10rem;
   width: 100%;
   background-color: var(--gris);
+  position: fixed;
+  top: 0px;
 }
 
 .logo {
@@ -312,10 +314,11 @@ textarea {
 }
 
 /** Main **/
-/* main {
+main {
   width: 100%;
   padding: 20px;
-} */
+  margin-top: 7rem;
+}
 /**Navegacion Productos **/
 
 .active__link {
