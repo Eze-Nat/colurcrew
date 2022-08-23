@@ -4,90 +4,404 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Colur Crew/Productos</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Colur Crew - Productos</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header class="header">
-      <img class="logo" src="./img/logo.jpeg" alt="logo" />
       <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn"> <i class="fa fa-bars"></i> </label>
+        <a href="../index.html">
+          <label>
+            <img class="logo" src="../img/logoDesktop.png" alt="logo" /></label
+        ></a>
         <ul class="nav__links">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="#">Productos</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a class="active" href="../index.html">Home</a></li>
+          <li><a class="active" href="./productos.html">Productos</a></li>
+          <li><a class="active" href="../index.html#nosotros">Nosotros</a></li>
+          <li><a class="active" href="../index.html#footer">Contacto</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
-      
+      <div class="descripcion__box" id="cera">
+        <div>
+          <h3 class="descripcion__titulo">Cera Depiladora en Frío</h3>
+          <p class="descripcion__texto">
+            Cera depiladora en fría con ingredientes naturales. No irrita y
+            suaviza la piel.
+          </p>
+          <p class="descripcion__texto"></p>
+          <p class="descripcion__texto">Instrucciones de uso:</p>
+          <p class="descripcion__texto">
+            Extiende sobre la zona a depilar una capa delgada y uniforme de
+            cera, siguiendo la dirección de crecimiento del vello, coloca un
+            trozo de una hoja de papel sobre la capa de cera, presionando fuerte
+            y uniformemente hasta que la superficie del papel quede totalmente
+            adherida. No es necesario esperar, desprenda la tira de papel con un
+            movimiento rápido y enérgico, hacia el sentido contrario del
+            crecimiento del vello.
+          </p>
+          <p class="descripcion__texto">
+            Al término del depilado, enjuaga el área y seca sin frotar.
+          </p>
+        </div>
+        <div class="descripcion__imagen">
+          <img src="../img/Cera depiladora en frio.png" alt="Cera depiladora" />
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="esmalte">
+        <div class="descripcion__imagen">
+          <img src="../img/Esmalte endurecedor.png" alt="Cera depiladora" />
+        </div>
+        <div>
+          <h3 class="descripcion__titulo">Esmalte endurecedor de uñas</h3>
+          <p class="descripcion__texto">
+            Esmalte endurecedor de secado rápido con Ajo y Calcio.
+          </p>
+
+          <p class="descripcion__texto">Instrucciones de uso:</p>
+          <p class="descripcion__texto">
+            Aplica una o dos capas sobre las uñas limpias. Te recomendamos
+            repetir el proceso por lo menos una vez a la semana. Puede
+            utilizarse también para brindar mayor brillo y protección a uñas
+            previamente esmaltadas.
+          </p>
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="mascaraprofesional">
+        <div>
+          <h3 class="descripcion__titulo">
+            Mascara 4 en uno negro profesional
+          </h3>
+          <p class="descripcion__texto">
+            Formula alargante de pestañas increible con cepillo en forma de
+            pino. Contiene aceite de mamey, aloe vera, jojoba y germen de trigo
+            que regenera y dá fuerza a las pestañas.
+          </p>
+          <p class="descripcion__texto">Instrucciones de uso:</p>
+          <p class="descripcion__texto">
+            Aplicar uniformemente sobre las pestañas hasta obtener el efecto
+            deseado.
+          </p>
+        </div>
+        <div class="descripcion__imagen">
+          <img
+            src="../img/Mascara 4 en 1 profesional.png"
+            alt="Cera depiladora"
+          />
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="mascaraprosilicon">
+        <div class="descripcion__imagen">
+          <img
+            src="../img/mascara 4 en 1 profesional silicon.png"
+            alt="Cera depiladora"
+          />
+        </div>
+        <div>
+          <h3 class="descripcion__titulo">Máscara 4 en uno cepillo silicone</h3>
+          <p class="descripcion__texto">
+            Máscara de pestañas Maxi Volumen tapa Morada, da un volumen
+            increíble para tus pestañas. Su cepillo distribuye de mejor forma el
+            producto dando resultados impresionantes.
+          </p>
+          <p class="descripcion__texto">Instrucciones de uso:</p>
+          <p class="descripcion__texto">
+            Aplica uniformemente sobre las pestañas hasta obtener el efecto
+            deseado. Evita el contacto con la parte interna del ojo.
+          </p>
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="mascmaxisilcona">
+        <div>
+          <h3 class="descripcion__titulo">
+            Máscara 4 en uno cepillo silicone volumen
+          </h3>
+          <p class="descripcion__texto">
+            Formula resistente al agua y con efecto Maxi Volumen. Su cepillo de
+            silicón aporta firmeza en cada aplicación, haciendo lucir tus
+            pestañas más definidas, con mayor volumen y más elevadas.
+          </p>
+          <p class="descripcion__texto">Instrucciones de uso:</p>
+          <p class="descripcion__texto">
+            Aplica uniformemente sobre las pestañas hasta obtener el efecto
+            deseado. Evita el contacto con la parte interna del ojo.
+          </p>
+        </div>
+        <div class="descripcion__imagen">
+          <img
+            src="../img/Máscara 4 en 1 maxi-volumen-silicona.png"
+            alt="Cera depiladora"
+          />
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="mascnegromicrofibra">
+        <div class="descripcion__imagen">
+          <img
+            src="../img/Máscara 4 en 1 negro microfibra.png"
+            alt="Cera depiladora"
+          />
+        </div>
+        <div>
+          <h3 class="descripcion__titulo">Máscara 4 en uno microfibras</h3>
+          <p class="descripcion__texto">
+            Máscara de pestañas 4 en 1 con Microfibras, que se adhieren a tus
+            pestañas haciendo que se vean más largas y más gruesas, funcionan
+            como extensiones.
+          </p>
+          <p class="descripcion__texto">Instrucciones de uso:</p>
+          <p class="descripcion__texto">
+            Aplica uniformemente sobre las pestañas hasta obtener el efecto
+            deseado. Evita el contacto con la parte interna del ojo.
+          </p>
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="redpasion">
+        <div>
+          <h3 class="descripcion__titulo">Máscara 4 en uno red pasion</h3>
+          <p class="descripcion__texto">
+            Hará que tus pestañas luzcan intensamente negras, largas y elevadas.
+            Tiene una textura extra firme, un color negro intenso y fibras
+            alargadoras que funcionan como extensiones en las pestañas.
+          </p>
+          <p class="descripcion__texto">Instrucciones de uso:</p>
+          <p class="descripcion__texto">
+            Aplicar uniformemente sobre las pestañas hasta obtener el efecto
+            deseado.
+          </p>
+        </div>
+        <div class="descripcion__imagen">
+          <img
+            src="../img/Mascara 4 en 1 red passion.png"
+            alt="Cera depiladora"
+          />
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="sensuallove">
+        <div class="descripcion__imagen">
+          <img
+            src="../img/Sensual Love.png"
+            alt="mascara 4 en uno sensual love"
+          />
+        </div>
+        <div>
+          <h3 class="descripcion__titulo">Máscara 4 en uno sensual love</h3>
+          <p class="descripcion__texto">
+            Volumen intenso y mirada sensual, esta mascara hará que tus pestañas
+            luzcan intensamente negras y gruesas.
+          </p>
+          <p class="descripcion__texto">Instrucciones de uso:</p>
+          <p class="descripcion__texto">
+            Aplicar uniformemente sobre las pestañas hasta obtener el efecto
+            deseado.
+          </p>
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="mascaratratamiento">
+        <div>
+          <h3 class="descripcion__titulo">Máscara clásica 4 en uno negro</h3>
+          <p class="descripcion__texto">
+            Fórmula original. Te dará una mirada seductora! Con su cepillo vas
+            obtener una separación uniforme y mayor grosor en tus pestañas.
+          </p>
+          <p class="descripcion__texto">Instrucciones de uso:</p>
+          <p class="descripcion__texto">
+            Aplicar uniformemente sobre las pestañas hasta obtener el efecto
+            deseado.
+          </p>
+        </div>
+        <div class="descripcion__imagen">
+          <img
+            src="../img/Mascara 4 en 1 efecto alargador de pestañas.png"
+            alt="Mascara 4 en 1 efecto alargador de pestañas.png"
+          />
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="mtratpest">
+        <div class="descripcion__imagen">
+          <img
+            src="../img/Mascara tratamiento para pestañas.png"
+            alt="tratamiento para pestanas"
+          />
+        </div>
+        <div>
+          <h3 class="descripcion__titulo">
+            Tratamiento en máscara para pestañas
+          </h3>
+          <p class="descripcion__texto">
+            Es un rímel transparente que puedes utilizar para las pestañas o
+            para tus cejas. En pestañas lo puedes utilizar para un look natural
+            o como base antes de tu máscara de costumbre para lograr mayor
+            volumen. En las cejas, aplica una ligera capa para mantenerlas
+            peinadas todo el día.
+          </p>
+          <p class="descripcion__texto">Instrucciones de uso:</p>
+          <p class="descripcion__texto">
+            Aplicar uniformemente hasta obtener el efecto deseado.
+          </p>
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="delineadornegro">
+        <div>
+          <h3 class="descripcion__titulo">Delineador 4 en uno negro</h3>
+          <p class="descripcion__texto">
+            Delineador 4 en Uno de Prosa en tono negro con aplicador de pincel.
+          </p>
+          <p class="descripcion__texto">
+            Contiene 4 aceites naturales: Hueso de mamey, Sábila, Jojoba y
+            Germen de Trigo
+          </p>
+        </div>
+        <div class="descripcion__imagen">
+          <img
+            src="../img/Delineador negro.png"
+            alt="Delineador 4 en uno negro"
+          />
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="tintero">
+        <div class="descripcion__imagen">
+          <img
+            src="../img//Delineador tintero.png"
+            alt="Delineador tintero negro"
+          />
+        </div>
+        <div>
+          <h3 class="descripcion__titulo">Delineador tintero negro</h3>
+          <p class="descripcion__texto">
+            Delineador tipo Tintero 4 en Uno en color negro con punta de plumón.
+          </p>
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="aceite4en1">
+        <div>
+          <h3 class="descripcion__titulo">Aceite 4 en uno para pestañas</h3>
+          <p class="descripcion__texto">
+            Aceite para crecer y alargar tus pestañas.
+          </p>
+
+          <p class="descripcion__texto">
+            Su fórmula es a base de 4 aceites naturales que logra resultados
+            sorprendentes.
+          </p>
+          <p class="descripcion__texto" >
+            Puedes usarlo también como desmaquillante.
+          </p>
+          <p class="descripcion__texto">Inclue aplicador.</p>
+        </div>
+        <div class="descripcion__imagen">
+          <img
+            src="../img/Aceite para pestañas.png"
+            alt="aceite 4 en uno para pestañas "
+            
+          />
+        </div>
+      </div>
+
+      <div class="descripcion__box" id="contorno">
+        <div class="descripcion__imagen">
+          <img
+            src="../img/Contorno de ojos.png"
+            alt="Crema para contorno de ojos"
+          />
+        </div>
+        <div>
+          <h3 class="descripcion__titulo">Crema para contorno de ojos</h3>
+          <p class="descripcion__texto">
+            Lo mejor para cuidar tu piel. La crema ayuda a disminuir la
+            inflamación matutina de los párpados. Proporciona suavidad,
+            hidratación y firmeza a la piel
+          </p>
+          <p class="descripcion__texto"></p>
+          <p class="descripcion__texto">Instrucciones de uso:</p>
+          <p class="descripcion__texto">
+            Usar una pequeña cantidad y colocar con pequeños toquecitos por el
+            hueso que rodea los ojos y las ojeras.
+          </p>
+        </div>
+      </div>
     </main>
 
-    <footer>
+    <footer id="footer">
       <div class="footer">
-        <ul class="nav__links">
-          <li>
-            <a href="#"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-brand-whatsapp"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
-                <path
-                  d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1"
-                ></path></svg
-            ></a>
-          </li>
-          <li>
-            <a href="#"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-brand-instagram"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <rect x="4" y="4" width="16" height="16" rx="4"></rect>
-                <circle cx="12" cy="12" r="3"></circle>
-                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line></svg
-            ></a>
-          </li>
-          <li>
-            <a href="#"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-brand-facebook"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path
-                  d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
-                ></path></svg
-            ></a>
-          </li>
-        </ul>
+        <div class="nav__links--logo">
+          <a href="#" class="logo__contact"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-whatsapp"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
+              <path
+                d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1"
+              ></path></svg
+          ></a>
+
+          <a href="#" class="logo__contact"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-instagram"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+              <circle cx="12" cy="12" r="3"></circle>
+              <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line></svg
+          ></a>
+
+          <a href="#" class="logo__contact"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-facebook"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+              ></path></svg
+          ></a>
+        </div>
       </div>
     </footer>
   </body>
