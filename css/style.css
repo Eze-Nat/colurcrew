@@ -23,6 +23,7 @@ html {
   padding: 0;
   font-family: var(--fuenteHeading);
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 body {
@@ -180,13 +181,6 @@ nav ul li a:hover {
 }
 
 @media (max-width: 858px) {
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-}
-  
   .checkbtn {
     display: block;
   }
