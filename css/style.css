@@ -267,13 +267,15 @@ button:hover {
   padding-top: 22.5rem;
   margin: 2rem;
   margin-top: 9rem;
+
 }
 .banner button {
-  margin: 2rem 8rem;
+  margin: 2rem 3rem;
 }
 .banner img {
   display: none;
   border-radius: 50%;
+
 }
 
 /* .cartel {
@@ -774,4 +776,12 @@ main {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 0rem;
   }
+  html {
+    width: 100%;
+  }
+}
+
+.logomobile {
+  float: left;
+  
 }
