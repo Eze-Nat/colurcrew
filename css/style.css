@@ -180,6 +180,13 @@ nav ul li a:hover {
 }
 
 @media (max-width: 858px) {
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+}
+  
   .checkbtn {
     display: block;
   }
@@ -333,7 +340,7 @@ button:hover {
  /*  flex-wrap: wrap; */
 }
 .categorias button {
-  padding: 2rem 5rem;
+  padding: 2rem 3rem;
 }
 
 @media (max-width: 768px) {
