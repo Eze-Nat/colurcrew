@@ -791,3 +791,15 @@ main {
     width: 100%;
   }
 }
+
+.wpbutton {
+  position: fixed;
+  z-index: 72;
+  width: 50px;
+  left: 92vw;
+  top: 90vh;
+}
+.wpbutton:hover {
+  transform: scale(1.25);
+  transition: all 0.5s ease-in-out;
+}
