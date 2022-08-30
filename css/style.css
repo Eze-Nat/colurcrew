@@ -208,7 +208,7 @@ nav ul li a:hover {
   }
 }
 
-/**ver**/
+/*ver*/
 
 button {
   padding: 2rem 8rem;
@@ -358,7 +358,7 @@ button:hover {
     padding: 2rem 3rem;
   }
 }
-/** Sobre Nosotros **/
+/* Sobre Nosotros */
 .sobre-nosotros {
   margin-bottom: 4rem;
   align-self: center;
@@ -388,7 +388,7 @@ button:hover {
     column-gap: 0rem;
   }
 }
-/**Recomendaciones**/
+/*Recomendaciones*/
 /* .recomendacion {
   margin: 2rem;
 }
@@ -458,7 +458,7 @@ button:hover {
   }
 }
 
-/**Contacto**/
+/*Contacto*/
 
 form {
   width: 60rem;
@@ -498,7 +498,7 @@ textarea {
   }
 }
 
-/** Footer **/
+/* Footer */
 .footer {
   display: flex;
   justify-content: center;
@@ -506,7 +506,7 @@ textarea {
   background-color: var(--terciario);
 }
 
-/** Main **/
+/* Main */
 /* main {
   width: 100%;
   padding: 1.5rem;
@@ -516,13 +516,13 @@ main {
   width: 100%;
   padding: 1.5rem;
 }
-/**Navegacion Productos **/
+/*Navegacion Productos */
 
 .active__link {
   border-bottom: 1px solid grey;
 }
 
-/** Productos **/
+/* Productos */
 
 .container__productos {
   display: grid;
@@ -726,7 +726,7 @@ main {
   margin: 0;
 }
 
-/** Lista Catalogo **/
+/* Lista Catalogo */
 
 /* .items__list {
   width: 100%;
@@ -749,7 +749,7 @@ main {
   margin: 10px;
 }
 
-/** Descripcion productos **/
+/* Descripcion productos */
 .descripcion__box {
   margin-top: 10rem;
   min-height: 30rem;
